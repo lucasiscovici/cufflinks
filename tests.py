@@ -3,7 +3,7 @@
 ###
 
 
-import cufflinks as cf
+import cufflinks_study as cf
 import pandas as pd
 import numpy as np
 import unittest

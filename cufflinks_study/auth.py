@@ -105,8 +105,8 @@ def set_config_file(sharing=None,theme=None,colorscale=None,offline=None,offline
 			If true then the charts are rendered
 			locally. 
 	offline_connected : bool
-			If True, the plotly.js library will be loaded
-			from an online CDN. If False, the plotly.js library will be loaded locally
+			If True, the plotly_study.js library will be loaded
+			from an online CDN. If False, the plotly_study.js library will be loaded locally
 			from the plotly python package
 	offline_show_link : bool
 			If true then the chart will show a link to 
@@ -117,7 +117,7 @@ def set_config_file(sharing=None,theme=None,colorscale=None,offline=None,offline
 	offline_config : dict
 			Additional configuration options
 			For the complete list of config options check out: 
-			https://github.com/plotly/plotly.js/blob/master/src/plot_api/plot_config.js
+			https://github.com/plotly/plotly_study.js/blob/master/src/plot_api/plot_config.js
 	datagen_mode : string
 			Mode in which the data is generated
 			by the datagen module

@@ -1,6 +1,6 @@
 """
 
-A productivity tool that binds pandas and plotly.
+A productivity tool that binds pandas and plotly_study.
 Kudos to the Plotly team!
 
 Author: @jorgesantos
@@ -19,7 +19,7 @@ from . import ta
 
 from .helper import _printer as help
 from .plotlytools import *
-from plotly.graph_objs import *
+from plotly_study.graph_objs import *
 from .colors import cnames, get_colorscale
 from .utils import pp
 from .tools import subplots,scatter_matrix,figures,getLayout,getThemes,getTheme

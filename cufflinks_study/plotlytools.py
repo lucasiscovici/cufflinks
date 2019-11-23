@@ -1,9 +1,9 @@
 import pandas as pd
 import time
 import copy
-# from plotly.graph_objs import *
-from plotly.graph_objs import Figure, Layout, Bar, Box, Scatter, FigureWidget, Scatter3d, Histogram, Heatmap, Surface, Pie
-import plotly.figure_factory as ff
+# from plotly_study.graph_objs import *
+from plotly_study.graph_objs import Figure, Layout, Bar, Box, Scatter, FigureWidget, Scatter3d, Histogram, Heatmap, Surface, Pie
+import plotly_study.figure_factory as ff
 from collections import defaultdict
 from IPython.display import display,Image
 from .exceptions import CufflinksError
@@ -75,7 +75,7 @@ def _to_iplot(self,colors=None,colorscale=None,kind='scatter',mode='lines',inter
 				circle-dot
 				diamond
 				square
-				and many more...(see plotly.validators.scatter.marker.SymbolValidator.values)
+				and many more...(see plotly_study.validators.scatter.marker.SymbolValidator.values)
 		size : string or int 
 			Size of marker 
 			Valid only if marker in mode
@@ -328,7 +328,7 @@ def _iplot(self,kind='scatter',data=None,layout=None,filename='',sharing=None,ti
 				circle-dot
 				diamond
 				square
-				and many more...(see plotly.validators.scatter.marker.SymbolValidator.values)
+				and many more...(see plotly_study.validators.scatter.marker.SymbolValidator.values)
 		size : string or int 
 			Size of marker 
 			Valid only if marker in mode

@@ -2,11 +2,11 @@ import copy
 
 import numpy as np
 import pandas as pd
-import plotly.offline as py_offline
-import plotly.figure_factory as ff
-from plotly.graph_objs import Figure, Scatter, Line
-from plotly.subplots import make_subplots
-# from plotly.graph_objs.layout import XAxis, YAxis
+import plotly_study.offline as py_offline
+import plotly_study.figure_factory as ff
+from plotly_study.graph_objs import Figure, Scatter, Line
+from plotly_study.subplots import make_subplots
+# from plotly_study.graph_objs.layout import XAxis, YAxis
 
 from . import auth, ta
 from .colors import normalize, to_rgba
@@ -650,7 +650,7 @@ def subplots(figures,shape=None,
 				  **kwargs):
 	"""
 	Generates a subplot view for a set of figures
-	This is a wrapper for plotly.subplots.make_subplots
+	This is a wrapper for plotly_study.subplots.make_subplots
 
 	Parameters:
 	-----------

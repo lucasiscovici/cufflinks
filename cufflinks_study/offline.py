@@ -1,4 +1,4 @@
-import plotly.offline as py_offline
+import plotly_study.offline as py_offline
 
 ### Offline Mode	
 
@@ -13,8 +13,8 @@ def run_from_ipython():
 def go_offline(connected=None):
     """
     connected : bool
-        If True, the plotly.js library will be loaded
-        from an online CDN. If False, the plotly.js library will be loaded locally
+        If True, the plotly_study.js library will be loaded
+        from an online CDN. If False, the plotly_study.js library will be loaded locally
         from the plotly python package
     """
     from .auth import get_config_file

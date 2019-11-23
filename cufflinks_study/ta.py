@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 # import talib
-from plotly.graph_objs import Figure
+from plotly_study.graph_objs import Figure
 from .utils import make_list
 
 
