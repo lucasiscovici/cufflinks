@@ -7,7 +7,7 @@ with io.open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
     requires = f.read().split()
 
 setup(
-    name='cufflinks',
+    name='cufflinks_study',
     version='0.17.0',
     description='Productivity Tools for Plotly + Pandas',
     author='Jorge Santos',
@@ -15,8 +15,8 @@ setup(
     license='MIT',
     keywords=['pandas', 'plotly', 'plotting'],
     url='https://github.com/santosjorge/cufflinks',
-    packages=['cufflinks'],
-    package_data={'cufflinks': ['../helper/*.json']},
+    packages=['cufflinks_study'],
+    package_data={'cufflinks_study': ['../helper/*.json']},
     include_package_data=True,
     install_requires=requires,
     classifiers=[
